@@ -15,7 +15,7 @@ jobs:
         with:
           dotnet-version: "10.x"
       - name: Restore
-        run: dotnet restore .
+        run: dotnet restore "T3G.csproj"
       - name: Tool Restore
         run: dotnet tool restore
 
@@ -23,7 +23,7 @@ jobs:
       - name: Verify CSharpier
         run: dotnet csharpier check .
       - name: Verify Analyzers
-        run: dotnet format . --verify-no-changes
-      - name: Build solution
+        run: dotnet format  "T3G.csproj" --verify-no-changes
+      - name: Build solutiongit
         run: dotnet build . --no-restore
 
