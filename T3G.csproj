@@ -14,6 +14,7 @@
     <AdditionalFiles Include="stylecop.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".csharpierignore" />
     <Content Include=".git\COMMIT_EDITMSG" />
     <Content Include=".git\config" />
     <Content Include=".git\description" />

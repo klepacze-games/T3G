@@ -11,4 +11,8 @@ namespace T3G.Common.Components.Bases;
 
 public partial class BaseComponent : Node3D
 {
+    public override void _Ready()
+    {
+        GD.Print("Component Test");
+    }
 }
