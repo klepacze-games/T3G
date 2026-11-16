@@ -15,7 +15,7 @@ jobs:
         with:
           dotnet-version: "10.x"
       - name: Restore
-        run: dotnet restore .
+        run: dotnet restore "T3G.csproj"
       - name: Tool Restore
         run: dotnet tool restore
 
