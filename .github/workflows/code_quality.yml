@@ -23,7 +23,7 @@ jobs:
       - name: Verify CSharpier
         run: dotnet csharpier check .
       - name: Verify Analyzers
-        run: dotnet format . --verify-no-changes
-      - name: Build solution
+        run: dotnet format  "T3G.csproj" --verify-no-changes
+      - name: Build solutiongit
         run: dotnet build . --no-restore
 
