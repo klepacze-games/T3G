@@ -257,7 +257,7 @@ dotnet_naming_rule.async_methods_rule.severity = warning
 # Roslyn diagnostics
 # ------------------------------------------------------------
 
-dotnet_diagnostic.IDE0005.severity = warning
+dotnet_diagnostic.IDE0005.severity = none
 dotnet_diagnostic.IDE0055.severity = warning
 
 
