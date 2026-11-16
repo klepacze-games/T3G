@@ -1,20 +1,42 @@
-# Opis
+## Opis zmian
 
-## Powiązane zadanie 
-- link do zadania Jira
-  
-## Opis
-- Ogólna informacja co tu się dzieje, miejsce na przemyślenia itp.
+Co zostało zmienione i dlaczego?
 
-## Dokumentacja 
-- Nie musi to być wybitny tekst, kilka Twoich słów, które mogą przydać się dla pozostałych, tok rozumowania, cel wykorzystania poszczególnych narzędzi itp. w celu tworzenia dokumentacji i ułatwienia sprawdzania itp.
-  
-## Checklista
-*Jeśli któreś z pól nie jest spełnione, nic nie szkodzi, ale jeśli jesteś w stanie sprawić aby było inaczej, zrób to*
-- [ ] Czy kod się kompiluje ?
-- [ ] Czy dodano nowe testy ? (Jeśli wymagane)
-- [ ] Czy wszystkie testy przechodzą?
-- [ ] Czy kod debugujący został uprzątnięty?
-- [ ] Czy dodałem/zaktualizowałem dokumentację wewnątrz kodu (XML)? (Jeśli potrzebna)
-- [ ] Czy kod spełnia standard Single Responsibility Principle (SRP)?
+## Powiązane zadanie
 
+Closes #
+
+## Rodzaj zmiany
+
+- [ ] Nowa funkcjonalność
+- [ ] Naprawa błędu
+- [ ] Refaktoryzacja
+- [ ] Zmiana techniczna / infrastrukturalna
+- [ ] Dokumentacja
+
+## Weryfikacja
+
+Jak przetestowano zmiany?
+
+- [ ] Projekt kompiluje się poprawnie.
+- [ ] Przeprowadzono odpowiednie testy.
+- [ ] Sprawdzono zachowanie w Godot.
+- [ ] Sprawdzono potencjalne regresje.
+
+## Godot — jeśli dotyczy
+
+- [ ] Sceny i zasoby działają poprawnie.
+- [ ] Zmiany w Inspectorze i referencjach zostały sprawdzone.
+- [ ] Nie dodano przypadkowych plików cache ani artefaktów kompilacji.
+- [ ] Zmiany wizualne zawierają zrzuty ekranu lub nagranie.
+
+## Ryzyko i skutki uboczne
+
+Czy zmiana może wpłynąć na inne systemy?
+
+## Checklist autora
+
+- [ ] PR ma konkretny zakres.
+- [ ] Kod jest zgodny z konwencjami projektu.
+- [ ] Usunięto niepotrzebny kod diagnostyczny.
+- [ ] Opis odpowiada rzeczywistym zmianom.
